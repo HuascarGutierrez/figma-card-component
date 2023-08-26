@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display: flex;
+    background-color: #ffff;
+    width: 353px;
+    border-radius: 30px;
+    padding: 22px;
+    flex-direction: column;    
+}
+.img-profile{
+    margin: 0 auto;
+    border-color: #FFFFFF;
+}
+.card img{
+    margin-top: -65px;
+    border-color: #ffff;
+    border-radius: 45px;
+    border: 5px solid white;
+    width: 92.59px;
+    height: 86.09px;
+    top: -13px;
+    left: -44px;
+}
+
+.details h2{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.details p{
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+
+} 
+.section-button{
+    display: flex;
+    justify-content: space-around;
+}
+.section-button button{
+    font-weight: 900;
+    font-size: 18px;
+    width:51px;
+    Height: 48px;
+    border-radius: 12px;
+    border-style: none;
+    background-color: rgba(4, 107, 165, 0.2);   
+}
+.follow{
+    color: #FFFFFF;
+}
+
+.section-button button:first-child{
+    Width: 242px;
+    background-color: #046BA5;
+    border-style: none;
+}
